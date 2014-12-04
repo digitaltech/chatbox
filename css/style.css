@@ -2,7 +2,7 @@
 {
 	float: left;
 	display: block;
-	
+	padding: 0 0 0 15px;
 }
 
 .chatTopH
@@ -64,4 +64,18 @@
 	width:300px;
 	height:20px;
 	box-shadow: 4px 4px 4px lightblue;
+}
+
+.proSpan
+{
+	color:white;
+	font-size:18px;
+	text-decoration:none;
+}
+
+.proSpan:hover
+{
+	color:white;
+	font-size:18px;
+	text-decoration: underline;
 }
