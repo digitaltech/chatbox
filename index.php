@@ -1,5 +1,6 @@
 <html>
 <head>
+<link rel = "stylesheet" type ="text/css" href = "css/style.css"/>
 <script src = "https://code.jquery.com/jquery-2.1.1.min.js" ></script>
 <script>
 $(function(){
@@ -26,15 +27,15 @@ return false ;/*We are using the return false here because if do not use then wh
 </script>
 </head>
 <body>
-	<div style = 'float:left;display:block;' >
-		<div  class = 'chatTopH' style = 'float:left;display:block;height:30px;width:300px;background-color:gray;cursor:pointer;box-shadow: 4px 4px 4px lightblue;'  >
-			<div style = 'float:left;display:block;'>
-			<a style = 'text-decoration:none;" href = "javascript:void(0)'><span style = 'color:white;font-size:18px;text-decoration:none;' >User Profile</span></a>
+	<div class = "mainChatDiv" >
+		<div  class = 'chatTopH'  >
+			<div class  ="cmnDiv">
+			<a style = 'text-decoration:none;' href = 'http://www.google.com'><span style = 'color:white;font-size:18px;text-decoration:none;' >User Profile</span></a>
 			</div>
 			<div>
-				<div class = 'chatOpts' style = 'float:left;display:block;height:30px;width:30px;margin: 0 0 0 60%;0background-repeat:no-repeat;background-image:url(images/settings.png);background-size: 100% 100%;background-color:cyan;cursor:pointer;' >
+				<div class = 'chatOpts cmnDiv ' >
 				</div>
-				<div class = 'chatLiOpt' style = 'float:left;display:block;width:140px;display:none;position:relative;top:2px;left:269px;background-color:white;'>
+				<div class = 'cmnDiv chatLiOpt'>
 					<div style = 'width:100%;background-color:lightblue;'>
 					Report Abusive
 					</div>
@@ -50,10 +51,10 @@ return false ;/*We are using the return false here because if do not use then wh
 		
 		
 		
-		<div class = 'chatTopD' style = 'width:300px;height:300px;background-color:lightblue;box-shadow: 4px 4px 4px lightblue;'>
-			<div style = 'float:left;display:block;overflow-y:auto;width:300px;height:260px;'></div>
-			<div style = 'float:left;display:block;width:300px; height:40px;box-shadow: 4px 4px 4px lightblue;'>
-				<input style = 'width:100%;height:100%;font-size:21px;' type = 'text' />
+		<div class = 'chatTopD'>
+			<div class = 'cmnDiv chatMsgDiv'></div>
+			<div class = 'cmnDiv chatWriteDiv'>
+				<input style = 'width:100%;height:100%;' type = 'text' />
 			</div>
 		</div>
 	</div>
